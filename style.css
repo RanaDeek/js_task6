@@ -1,0 +1,30 @@
+ul {
+    list-style-type: none;
+}
+
+.task {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.deletetask {
+    text-decoration: line-through;
+}
+
+input {
+    padding: 10px;
+    border: 2px solid blue;
+}
+
+body {
+    background-color: #ccc;
+}
+
+button {
+    padding: 10px;
+    background-color: white;
+    border: 2px solid blue;
+    height: 40px;
+}
